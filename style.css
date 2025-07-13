@@ -1,0 +1,93 @@
+body {
+    justify-content: center;
+    display: flex;
+    background-image: url(images/items.png);
+    background-size:cover;
+    padding: 20px;
+
+}
+
+h1 {
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  
+}
+
+button, .eliminar-btn, #exportarBtn {
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: opacity 0.15s;
+  font-family: 'Trebuchet MS';
+
+}
+
+.eliminar-btn {
+  background: crimson;
+}
+
+#exportarBtn {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #0077cc;
+}
+
+button:hover, .eliminar-btn:hover, #exportarBtn:hover {
+  opacity: 0.9;
+}
+
+#itemInput, #cantidadInput {
+
+  padding: 10px;
+  border: 1px solid rgb(227, 223, 223);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Arial';
+}
+
+#itemInput {
+  flex: 2;
+}
+
+#cantidadInput {
+  width: 40px;
+  text-align: center;
+}
+
+
+.item {
+  background-color: #e1f5fe;
+  padding: 5px;
+  padding-right: 0px;
+  border-left: 5px solid #039be5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+span {
+  font-family: 'Arial';
+}
+
+.container {
+  width: 30vw;
+  max-width: 450px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgba(5, 5, 5, 0.661);
+  border-radius: 20px;
+  padding: 30px 40px;
+
+}
+
+#formulario {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-bottom: 5px;
+}
+
